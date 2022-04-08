@@ -1,0 +1,2 @@
+select sum(c.population) from city c,country cc
+where cc.continent='Asia' and c.CountryCode = cc.Code;
